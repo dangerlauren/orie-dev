@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.5" type="template">
+	<name>orie2016</name>
+	<creationDate>2016-07-14</creationDate>
+	<author>Lauren Grant</author>
+	<authorEmail>lgrant@utexas.edu</authorEmail>
+	<authorUrl>http://www.engr.utexas.edu</authorUrl>
+	<copyright>Cockrell School of Engineering 2016</copyright>
+	<license>GNU/GPL</license>
+	<version>1.0.2</version>
+	<description>ORIE Template</description>
+	<files>
+		<filename>index.php</filename>
+		<filename>index.html</filename>
+		<filename>templateDetails.xml</filename>
+		<folder>images</folder>
+		<folder>css</folder>
+		<folder>javascript</folder>
+	</files>
+	<positions>
+		<position>mast</position>
+		<position>header</position>
+		<position>left</position>
+		<position>position-1</position>
+		<position>position-2</position>
+		<position>position-3</position>
+		<position>position-4</position>
+		<position>position-5</position>
+		<position>footer</position>
+	</positions>
+</extension>

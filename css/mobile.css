@@ -1,0 +1,187 @@
+@media (max-width: 413px) {
+	
+	/* Hero */
+
+	.custom-homehero {
+		height: 350px;
+		margin-top: 6em;
+	}
+
+	.custom-homehero .herotext h1 {
+		font-size: 28px;
+	}
+
+	.custom-homehero .herotext .button-med-blue-inv a {
+		font-size: .95em;
+		padding: .5em;
+	}
+
+	/* Logo */
+
+	.custom-orielogo {
+		width: 220px;
+		margin-top:	.25em;
+		margin-bottom: .25em;
+	}
+
+	/* Nav */
+
+	.moduletable-mobilenav h3 {
+		font-size: .9em;
+		margin-top: 1.4em;
+	}
+
+	/* Mobile Nav */
+
+	/*#submast */.moduletable-mobilenav .menu-mobile {
+		/*margin-top: 2.3em;*/
+		margin-top: 3em;
+		width: 100%;
+	}
+
+	.menu-mobile .search-box {
+		max-width: 93%;
+	}
+
+	/* Breadcrumbs */
+
+	#breadcrumbs {
+		font-size: .65em;
+		margin-left: 3.25%;
+		margin-bottom: 5%;
+	}
+
+	/* Flex */
+
+	.moduletable-flexcontrols {
+		display: block;
+		clear: both;
+	}
+
+	.moduletable-flexcontrols p {
+		display: block;
+		font-size: 1.2em;
+		line-height: 1em;
+		transform: scale(.65,2);
+		/*border: 2px solid #005e83;*/
+		/*padding: .25em;*/
+	}
+
+	.moduletable-flexcontrols p.leftcontrol {
+		float: left;
+		margin: 22% 3% 0 5%;
+	}
+
+	.moduletable-flexcontrols p.rightcontrol {
+		float: right;
+		margin: 22% 5% 0 3%; 
+	}
+
+	.moduletable-flexcontrols p a {
+		text-decoration: none;
+		color: #3a3a3a;
+	}
+
+	.moduletable-flexcontrols #circleone {
+		background-color: #6d6e71;
+	}
+
+	.moduletable-flexcontrols .circlecontrol {
+		margin-left: 38%;
+	}
+
+	.moduletable-flexcontrols .circlecontrol li {
+		border-radius: 9px;
+		border: 1px solid #222;
+		color: transparent;
+		cursor: pointer;
+		display: block;
+		width: 9px;
+		height: 9px;
+		text-align: center;
+		float: left;
+		margin: 0 .5em 1.5em .5em;
+	}
+
+	.moduletable-flex {
+		display: none;
+		float: none;
+		width: auto;
+		max-width: 75%;
+	}
+
+	.moduletable-flex.one, .moduletable-flex.two {
+		margin: 0 13%;
+	}
+
+	.moduletable-flex.three {
+		margin-left: 13%; 
+	}
+
+	.moduletable-flex.one {
+		display: block;
+	}
+
+	.custom-flex .button-sm-blue-inv a {
+		padding: .45em;
+		font-size: .9em;
+	}
+
+	.moduletable-pullquote #quote img {
+		max-width: 60%;
+		padding-top: 8%;
+	}
+
+	.moduletable-pullquote #quotetext {
+		font-size: 1.25em;
+		padding: 8% 10% 15% 10%;
+		line-height: normal;
+	}
+
+	/* Academics */
+
+	#left .menuhead h3 {
+		font-size: .85em;
+		margin-left: 0;
+	}
+
+	.article h1 {
+		font-size: 1.8em;
+	}
+
+	/* Footer */
+
+	#footer {
+		/*height: 180px;*/
+		height: auto;
+	}
+
+	.moduletable-copyright {
+		text-align: center;
+		padding: 1em 2em 0 2.3em;
+	}
+
+	.expand {
+		display: none;
+	}
+
+	.moduletable-resources .custom-resources {
+		text-align: center;
+		margin-bottom: 1.5em;
+	}
+
+	.moduletable-resources span {
+		display: inline-block;
+		margin-right: .7em;
+	}
+
+	.moduletable-resources span a {
+		font-size: .75em;
+		color: #6d6e71;
+	}
+
+	.moduletable-resources ul li {
+		float: none;
+		/*padding: 1em 0 0 0;*/
+	}
+}

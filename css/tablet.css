@@ -1,0 +1,206 @@
+@media (max-width: 1000px) {
+
+	#mast, .moduletable-mainnav, .search {
+		display: none;
+	}
+
+	/*#submast {
+		background-color: #bf5700;
+		clear: both;
+		height: auto;
+		overflow: auto;
+	}*/
+
+
+
+	.moduletable-mobilenav {
+		float: right;
+		text-align: right;
+		margin: 0 3.25% 0 0;
+		display: block;
+		cursor: pointer;
+	}
+
+	.moduletable-mobilenav h3 {
+		cursor: pointer;
+		/*color: #fff;*/
+		color: #3a3a3a;
+		/*margin: .25em 0 0 0;*/
+		font-weight: 600;
+		font-size: 1.05em;
+		/*margin: 2.8em 0 0 0;*/
+		margin: 1.2em 0 0 0;
+	}
+
+	.moduletable-mobilenav h3 span {
+		font-weight: 500;
+		font-size: .9em;
+	}
+
+	.moduletable-mobilenav .nav {
+		z-index: 999;
+	}
+
+	.menu-mobile {
+		background-color: #fff;
+		display: none;
+		position: absolute;
+		right: 0;
+		text-align: left;
+		width: 100%;
+		margin: .5em 0 0 0;
+		border-bottom: 1px solid #a7a9ac;
+	}
+
+	.menu-mobile li {
+		border-top: 1px solid #a7a9ac;
+		text-transform: uppercase;
+		padding: 1em 0;
+		margin: 0;
+	}
+
+	.menu-mobile li.item2 {
+		background-color: #005e83;
+	}
+
+	.menu-mobile li a {
+		color: #6e6f72;
+		padding: 0 1em;
+		display: block;
+		height: 100%;
+		width: auto;
+	}
+
+	.menu-mobile li.item2 a {
+		color: #fff;
+	}
+
+	.menu-mobile #search {
+		background-color: #eaeaea;
+	}
+
+	.menu-mobile .search-box {
+		max-width: 95%;
+		padding: 1em .3em;
+	}
+
+	.custom-orielogo {
+		width: 300px;
+		margin-top:	.75em;
+		margin-bottom: .75em;
+	}
+
+	/* Breadcrumbs */
+
+	#breadcrumbs {
+		clear: both;
+    	margin: 15% 5.25% 2.25%;
+	}
+
+	/* Body */
+
+	.custom-homehero {
+		margin-top: 7em;
+		height: 500px;
+	}
+
+	.custom-homehero .herotext h1 {
+		font-size: 32px;
+	}
+
+	.custom-flex h3 {
+		font-size: 1em;
+		margin-bottom: 1em;
+		margin-top: .8em;
+	}
+
+	.custom-flex .category {
+		margin: 1em 0 .8em 0;
+	}
+
+	.custom-flex .category-desc {
+		font-size: .95em;
+		margin-bottom: 2em;
+	}
+
+	/* Academics */
+
+	#left {
+		clear: both;
+		width: 93.5%;
+		margin: 1% 3.25% 2.2% 3.25%;
+	}
+
+	#left .menu-subnav {
+		display: none;
+		margin-bottom: 0;
+		background-color: #eaeaea;
+	}
+
+	#left .menuhead {
+		/*border: 1px solid #6e6f72;*/
+		cursor: pointer;
+		/*background-color: #bf5700;*/
+		/*background-color: #eaeaea;*/
+		border-top: 3px solid #bf5700;
+		margin: -.6em 0 0 0;
+		padding: .8em .2em; 
+	}
+
+	#left .menuhead h3 {
+		margin: .5em 0 .5em 2%;
+		/*color: #fff;*/
+		/*color: #6e6f72;*/
+	}
+
+	#left .menuhead h3 span {
+		display: block;
+		float: right;
+		padding-right: 1em;
+	}
+
+	#left .menu-subnav li {
+		border-top: 1px solid #fff;
+		padding: 1.2em 0 0 1.2em;
+	}
+
+	#left .menu-subnav li:first-of-type {
+		border-top: none;
+	}
+
+	#left .menu-subnav li:last-of-type {
+		padding-bottom: 1.2em;
+	}
+
+	.article {
+		width: 93.5%;
+		margin: -1em 3.25% 3.25% 3.25%;
+	}
+
+	/* Footer */
+
+	#footer {
+		clear: both;
+	}
+
+	.custom-copyright p, .custom-copyright p a, .custom-resources li {
+		font-size: .95em;
+	}
+
+	.moduletable-resources {
+		float: none;
+		padding-right: 5%;
+		display: block;
+	}
+
+	.custom-resources {
+		padding-top: .75em;
+	}
+
+	.moduletable-resources ul li {
+		padding: 0 1em;
+	}
+
+
+
+}

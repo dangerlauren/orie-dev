@@ -1,0 +1,27 @@
+@media (max-width: 680px) {
+	.custom-copyright {
+		float: left;
+		width: 40%;
+		/*text-align: center;*/
+	}
+
+	.custom-contact {
+		float: left;
+		width: 40%;
+	}
+
+	.custom-resources {
+		clear: both;
+		width: 40%;
+	}
+
+	.custom-resources h2 {
+		margin-left: 0;
+	}
+
+	.custom-social {
+		border: none;
+		float: left;
+		width: 40%;
+	}
+}

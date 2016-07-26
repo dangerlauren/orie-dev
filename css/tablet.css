@@ -1,4 +1,4 @@
-@media (max-width: 1000px) {
+@media (max-width: 768px) {
 
 	#mast, .moduletable-mainnav, .search {
 		display: none;
@@ -48,7 +48,7 @@
 		right: 0;
 		text-align: left;
 		width: 100%;
-		margin: .5em 0 0 0;
+		margin: 4.3em 0 0 0;
 		border-bottom: 1px solid #a7a9ac;
 	}
 
@@ -92,9 +92,9 @@
 
 	/* Breadcrumbs */
 
-	#breadcrumbs {
+	.breadcrumb {
 		clear: both;
-    	margin: 15% 5.25% 2.25%;
+    	margin: 15% 5.25% 2em 5.25%;
 	}
 
 	/* Body */
@@ -172,7 +172,7 @@
 		padding-bottom: 1.2em;
 	}
 
-	.article {
+	.item-page {
 		width: 93.5%;
 		margin: -1em 3.25% 3.25% 3.25%;
 	}
@@ -200,7 +200,5 @@
 	.moduletable-resources ul li {
 		padding: 0 1em;
 	}
-
-
 
 }

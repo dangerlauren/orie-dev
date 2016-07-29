@@ -1,27 +1,35 @@
 @media (max-width: 680px) {
-	.custom-copyright {
-		float: left;
-		width: 40%;
-		/*text-align: center;*/
+	.custom-flexcontrols {
+		display: block;
+		overflow: hidden;
 	}
 
+	.custom-flex {
+		width: auto;
+		float: none;
+		margin: 0 3%;
+		display: none;
+	}
+
+	.showme {
+		display: block;
+	}
+
+	.custom-flex.one, .custom-flex.two, .custom-flex.three {
+		margin: 0 10%;
+	}
+
+	.custom-flex h3 {
+		max-width: 100%;
+	}
+
+	/*FOOTER*/
 	.custom-contact {
-		float: left;
-		width: 40%;
+		width: 30%;
 	}
 
 	.custom-resources {
-		clear: both;
-		width: 40%;
+		width: 20%;
 	}
 
-	.custom-resources h2 {
-		margin-left: 0;
-	}
-
-	.custom-social {
-		border: none;
-		float: left;
-		width: 40%;
-	}
 }

@@ -181,9 +181,18 @@
 
 	#footer {
 		clear: both;
+		padding-left: 0;
 	}
 
-	.custom-copyright p, .custom-copyright p a, .custom-resources li {
+	.custom-copyright {
+		width: 100%;
+		text-align: center;
+		border-bottom: 1px solid #e0e0e0;
+		float: none;
+		padding: 0;
+	}
+
+	.custom-copyright p {
 		font-size: .95em;
 	}
 
@@ -193,12 +202,31 @@
 		display: block;
 	}
 
+	.custom-contact {
+		margin-left: 3.25%;
+		width: 25%;
+		font-size: .9em;
+		padding-right: 0;
+		margin-top: -.5%;
+	}
+
 	.custom-resources {
-		padding-top: .75em;
+		/*padding-top: .75em;*/
+		width: 28%;
+		font-size: .9em;
+		margin-top: -.5%;
 	}
 
 	.moduletable-resources ul li {
 		padding: 0 1em;
+	}
+
+	.custom-social {
+		margin-right: 3.25%;
+		width: 36%;
+		padding-bottom: 2em;
+		font-size: .9em;
+		margin-top: -1.5%;
 	}
 
 }

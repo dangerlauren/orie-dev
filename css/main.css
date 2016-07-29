@@ -624,7 +624,6 @@ img, a img {
 
 .custom-resources h2 {
 	font-size: .95em;
-	margin-left: 12%;
 	letter-spacing: .025em;
 }
 
@@ -640,7 +639,7 @@ img, a img {
 	margin: 0;
 	/*float: left;*/
 	/*padding: 1em;*/
-	padding: .75em 2em .15em 2em;
+	padding: .75em 2em .15em 0;
 }
 
 .custom-resources ul li a {
@@ -653,7 +652,7 @@ img, a img {
 	float: left;
 	/*margin: 0 3.25%;*/
 	color: #6e6f71;
-	padding-right: 1%;
+	padding-right: 4%;
 	width: 14%;
 }
 

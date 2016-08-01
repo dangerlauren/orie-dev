@@ -1,7 +1,30 @@
 @media (max-width: 680px) {
 	.custom-flexcontrols {
 		display: block;
-		overflow: hidden;
+	}
+
+	.custom-flexcontrols p {
+		display: block;
+		font-size: 1.2em;
+		line-height: 1em;
+		transform: scale(.65,2);
+		/*border: 2px solid #005e83;
+		/*padding: .25em;*/
+	}
+
+	.custom-flexcontrols p a {
+		text-decoration: none;
+		color: #3a3a3a;
+	}
+
+	.custom-flexcontrols a.prev {
+		float: left;
+		margin: 12% 0 0 -20%;
+	}
+
+	.custom-flexcontrols a.next {
+		float: right;
+		margin: 12% -20% 0 0;
 	}
 
 	.custom-flex {

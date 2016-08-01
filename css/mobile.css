@@ -52,34 +52,6 @@
 
 	/* Flex */
 
-	.moduletable-flexcontrols {
-		display: block;
-		clear: both;
-	}
-
-	.moduletable-flexcontrols p {
-		display: block;
-		font-size: 1.2em;
-		line-height: 1em;
-		transform: scale(.65,2);
-		/*border: 2px solid #005e83;*/
-		/*padding: .25em;*/
-	}
-
-	.moduletable-flexcontrols p.leftcontrol {
-		float: left;
-		margin: 22% 3% 0 5%;
-	}
-
-	.moduletable-flexcontrols p.rightcontrol {
-		float: right;
-		margin: 22% 5% 0 3%; 
-	}
-
-	.moduletable-flexcontrols p a {
-		text-decoration: none;
-		color: #3a3a3a;
-	}
 
 	.moduletable-flexcontrols #circleone {
 		background-color: #6d6e71;

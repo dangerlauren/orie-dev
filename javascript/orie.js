@@ -43,25 +43,25 @@
 	
 
 	$(function(){
-		$( '.moduletable-flexcontrols p a.next, .moduletable-flexcontrols p a.prev' ).click(function(event){
+		$( '.custom-flexcontrols p a.next, .custom-flexcontrols p a.prev' ).click(function(event){
 			var n = $(this).attr('href').substring(1);
 			if (n == 'null') {
 				return false;
 			} else {
 				$('.'+ n).addClass('showme').removeClass('hideme');
-				$('.moduletable-flex:not(.'+ n +')').addClass('hideme').removeClass('showme');
+				$('.custom-flex:not(.'+ n +')').addClass('hideme').removeClass('showme');
 				switch (n) {
 					case "one" :
-						$('.moduletable-flexcontrols p a.next').attr('href', '#two');
-						$('.moduletable-flexcontrols p a.prev').attr('href','#null').addClass('disabled');
+						$('.custom-flexcontrols p a.next').attr('href', '#two');
+						$('.custom-flexcontrols p a.prev').attr('href','#null').addClass('disabled');
 						break;
 					case "two" :
-						$('.moduletable-flexcontrols p a.next').attr('href', '#three').removeClass('disabled');
-						$('.moduletable-flexcontrols p a.prev').attr('href','#one').removeClass('disabled');
+						$('.custom-flexcontrols p a.next').attr('href', '#three').removeClass('disabled');
+						$('.custom-flexcontrols p a.prev').attr('href','#one').removeClass('disabled');
 						break;
 					case "three" :
-						$('.moduletable-flexcontrols p a.next').attr('href','#null').addClass('disabled');
-						$('.moduletable-flexcontrols p a.prev').attr('href','#two');
+						$('.custom-flexcontrols p a.next').attr('href','#null').addClass('disabled');
+						$('.custom-flexcontrols p a.prev').attr('href','#two');
 						break;
 					}
 			}

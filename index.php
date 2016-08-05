@@ -23,8 +23,8 @@ if (is_object($menu)) :
 endif;
 $doc->addStyleSheet('https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,800,700,600,300', $type = 'text/css', $media = 'all');
 $doc->addStyleSheet($this->baseurl.'/templates/'.$this->template.'/css/main.css', $type = 'text/css', $media = 'all');
-//$doc->addStyleSheet($this->baseurl.'/templates/'.$this->template.'/css/desk.css', $type = 'text/css', $media = 'all and (min-width: 1000px)');
-$doc->addStyleSheet($this->baseurl.'/templates/'.$this->template.'/css/tablet.css', $type = 'text/css', $media = 'all and (max-width: 768px)');
+// $doc->addStyleSheet($this->baseurl.'/templates/'.$this->template.'/css/desk.css', $type = 'text/css', $media = 'all and (min-width: 1000px)');
+$doc->addStyleSheet($this->baseurl.'/templates/'.$this->template.'/css/tablet.css', $type = 'text/css', $media = 'all and (max-width: 1000px)');
 $doc->addStyleSheet($this->baseurl.'/templates/'.$this->template.'/css/tablet-small.css', $type = 'text/css', $media = 'all and (max-width: 680px)');
 $doc->addStyleSheet($this->baseurl.'/templates/'.$this->template.'/css/mobile.css', $type = 'text/css', $media = 'all and (max-width: 400px)');
 $doc->addScript($this->baseurl.'/templates/'.$this->template.'/javascript/orie.js', $type = 'text/javascript');

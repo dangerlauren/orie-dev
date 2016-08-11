@@ -1,4 +1,4 @@
-#mast, .moduletable-mainnav, .search {
+#mast, .moduletable-mainnav, #header .finder {
 	display: none;
 }
 

@@ -34,7 +34,7 @@
 			$('.moduletable-mobilenav h3').css({'z-index': '999'});
 			var docHeight = $(document).height();
 			$("body").append("<div id='overlay'></div>");
-			$('#mast .menu-mobile').slideToggle();
+			// $('#mast .menu-mobile').slideToggle();
 			$("#overlay").height(docHeight); 
 		   	$('#overlay').toggleClass('show');
 

@@ -336,7 +336,7 @@ form .finder button {
 }
 
 .moduletable-mobilenav .menu-mobile li .nav-child {
-	margin-bottom: -.75em;
+	margin: 1em 0 -.75em -.75em;
 }
 
 .moduletable-mobilenav .menu-mobile li .nav-child li {

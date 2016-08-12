@@ -37,6 +37,8 @@
 			$('#mast .menu-mobile').slideToggle();
 			$("#overlay").height(docHeight); 
 		   	$('#overlay').toggleClass('show');
+
+
 		});		
 	});
 

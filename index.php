@@ -43,7 +43,9 @@ $doc->addScript($this->baseurl.'/templates/'.$this->template.'/javascript/orie.j
 			<jdoc:include type="modules" name="mast" style="none" />
 		</div>
 		<div id="header">
+			<jdoc:include type="modules" name="test" style="none" />
 			<jdoc:include type="modules" name="header" style="none" />
+
 		</div>
 		<div id="left">
 			<jdoc:include type="modules" name="left" style="none" />

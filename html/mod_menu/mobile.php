@@ -103,4 +103,15 @@ foreach ($list as $i => &$item)
 		echo '</li>';
 	}
 }
-?></ul>
+?>
+	<li><!-- <a href="#">Search</a> -->
+		<?php
+			jimport('joomla.application.module.helper');
+			$modules = JModuleHelper::getModules('test');
+			foreach($modules as $module) {
+				echo JModuleHelper::renderModule($module);
+			}
+		?>
+	</li>
+</ul>
+

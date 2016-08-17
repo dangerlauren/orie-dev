@@ -2,6 +2,24 @@
 	display: none;
 }
 
+#header .menu-mobile .finder {
+	display: block;
+	margin-top: -.65em;
+	margin-bottom: 1em;
+	/*width: 450px;*/
+	width: 94%;
+}
+
+#header .menu-mobile .finder button {
+	margin-top: 1.25em;
+	margin-left: 82%;
+}
+
+#header .menu-mobile .finder input {
+	/*width: 420px;*/
+	width: 93%;
+}
+
 /*#submast {
 	background-color: #bf5700;
 	clear: both;

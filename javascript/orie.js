@@ -23,26 +23,61 @@
 		});		
 	});
 
-	$(function(){
+	// *** ORIGINAL ***
+	// $(function(){
+	// 	$('.moduletable-mobilenav').click(function(){
+	// 		$('.menu-mobile').slideToggle().toggleClass('expand');
+	// 	})
+	// });
+
+	// $(function(){
+	// 	$( '.moduletable-mobilenav h3' ).click(function(){
+	// 		$(this).css({'z-index': '999'});
+	// 		var docHeight = $(document).height();
+	// 		$("body").append("<div id='overlay'></div>");
+	// 		$("#overlay").height(docHeight); 
+	// 	   	// $('#overlay').addClass('show');
+	// 	   	$('#overlay').toggleClass('show');
+
+
+	// 	});	
+	// });
+
+		// *** REFACTORED - STILL WORKS ***
+		$(function(){
 		$('.moduletable-mobilenav').click(function(){
+			$(this).css({'z-index': '999'});
+			var docHeight = $(document).height();
+			$("body").append("<div id='overlay'></div>");
+			$("#overlay").height(docHeight); 
+		   	$('#overlay').toggleClass('show');
 			$('.menu-mobile').slideToggle().toggleClass('expand');
 		})
 	});
 
-	$(function(){
-		$( '.moduletable-mobilenav h3' ).click(function(){
-			$('.moduletable-mobilenav h3').css({'z-index': '999'});
-			var docHeight = $(document).height();
-			$("body").append("<div id='overlay'></div>");
-			// $('#mast .menu-mobile').slideToggle();
-			$("#overlay").height(docHeight); 
-		   	$('#overlay').toggleClass('show');
+	// $(function(){
+	// 	$('.moduletable-mobilenav').click(function(e){
 
+	// 		$(this).css({'z-index': '999'});
+	// 		$('.menu-mobile').slideToggle().toggleClass('expand');
+	// 		var docHeight = $(document).height();
+	// 		$("body").append("<div id='overlay'></div>");
+	// 		$("#overlay").height(docHeight); 
+	// 		$('#overlay').toggleClass('show');
 
-		});		
-	});
+	// 		var target = $(e.target)	
+	// 	   	if (target.hasClass('search-query')) {
+	// 	   		// don't close menu or don't slideToggle .menu-mobile
+	// 	   		$('.menu-mobile').remove()
+	// 	   	}
 
-	
+	// 	   	else {
+	// 	   	// link takes you to another page, or clicking on menu closes
+	// 	   }
+		   	
+			
+	// 	})
+	// });
 
 	$(function(){
 		$( '.custom-flexcontrols p a.next, .custom-flexcontrols p a.prev' ).click(function(event){

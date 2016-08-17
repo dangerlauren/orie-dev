@@ -104,7 +104,7 @@ foreach ($list as $i => &$item)
 	}
 }
 ?>
-	<li><!-- <a href="#">Search</a> -->
+	<li class="searchmobile"><!-- <a href="#">Search</a> -->
 		<?php
 			jimport('joomla.application.module.helper');
 			$modules = JModuleHelper::getModules('test');

@@ -658,6 +658,69 @@ form .finder button {
 	border-bottom: none;
 }
 
+/* Events */
+
+/*#jevents {
+	height: auto;
+	overflow: hidden;
+}*/
+
+#jevents #jevents_header h1 {
+	font-weight: 300;
+    font-size: 2.20em;
+    line-height: 1.25em;
+    color: #bf5700;
+    margin: 0 0 .5em;
+}
+
+#jevents_body {
+	margin: 3em 3.25% 3.25% 2em;
+}
+
+#jevents #jevents_body .ev_table {
+    border: none;
+}
+
+#jevents #jevents_body .ev_table .ev_td_left {
+    border: none;
+    /*width: 15% !important;*/
+    font-size: 1em;
+    float: left;
+    /*margin-bottom: 2em;*/
+    font-family: 'Georgia', serif;
+    background-color: #eaeaea;
+    color: #3a3a3a;
+    font-style: italic;
+    min-width: 160px;
+    margin-right: 3em;
+    padding: 1.5em .8em 1.5em 1.5em;
+
+}
+
+#jevents .ev_table .ev_td_right {
+    border: none;
+    margin: 0 0 2em 0;
+    float: left;
+}
+
+#jevents .ev_table .ev_td_right .ev_ul .ev_td_li {
+    border: none;
+    padding-bottom: 1em;
+
+}
+
+#jevents .ev_td_li a {
+    font-size: 1em;
+    color: #3a3a3a;
+    /* display: inline-block; */
+}
+
+#jevents .contentheading {
+    font-size: 1.5em;
+    margin: -.3em 0 .5em 0;
+    font-weight: 100;
+}
+
 /* Footer */
 
 #footer {

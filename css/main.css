@@ -660,21 +660,39 @@ form .finder button {
 
 /* Events */
 
-/*#jevents {
+#jevents {
 	height: auto;
-	overflow: hidden;
-}*/
+}
+
+#jevents #jevents_header {
+	display: inline-block;
+	margin-top: -1em;
+}
 
 #jevents #jevents_header h1 {
 	font-weight: 300;
     font-size: 2.20em;
     line-height: 1.25em;
     color: #bf5700;
-    margin: 0 0 .5em;
+    margin: 0 0 .5em 3.25%;
 }
 
 #jevents_body {
-	margin: 3em 3.25% 3.25% 2em;
+	margin: 2em 3.25% 0;
+}
+
+#jevents_body .jev_evdt {
+	padding: 0;
+}
+
+#jevents_body .jev_evdt .jev_evdt_icons {
+	float: none;
+	height: auto;
+	margin: 0;
+}
+
+.jev_evdt .jev_evdt_icons > div {
+	display: block;
 }
 
 #jevents #jevents_body .ev_table {
@@ -699,7 +717,7 @@ form .finder button {
 
 #jevents .ev_table .ev_td_right {
     border: none;
-    margin: 0 0 2em 0;
+    /*margin: 0 0 2em 0;*/
     float: left;
 }
 
@@ -715,10 +733,64 @@ form .finder button {
     /* display: inline-block; */
 }
 
+#jevents .ev_td_li a:hover {
+	text-decoration: underline !important;
+}
+
+#jevents .presenter {
+    letter-spacing: .01em;
+    color: #3a3a3a;
+    display: block;
+    padding-bottom: .5em;
+}
+
+#jevents .ev_date {
+    padding-bottom: .5em;
+}
+
+#jevents .ev_detail {
+    padding-bottom: 1em;
+}
+
+#jevents #jevents_body p {
+    margin: .7em 3em 2em 0;
+}
+
+#jevents .jevbootstrap .btn {
+    color: #3A3A3A;
+    background-color: #eaeaea;
+    padding: 0.25em;
+    font-weight: 600;
+    border: none;
+    background-image: none;
+    min-width: 100px;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+#jevents .jevbootstrap .btn:hover {
+	background-color: #eaeaea !important;
+}
+
 #jevents .contentheading {
     font-size: 1.5em;
     margin: -.3em 0 .5em 0;
     font-weight: 100;
+}
+
+/* News */
+
+.blog-news {
+	margin: 0 3.25%;
+}
+
+.blog-news .page-header {
+	clear: left;
+}
+
+.blog-news .published {
+	font-style: italic;
+	font-family: 'Georgia', serif;
 }
 
 /* Footer */

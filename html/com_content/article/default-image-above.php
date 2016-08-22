@@ -22,16 +22,7 @@ JHtml::_('behavior.caption');
 ?>
 <div class="item-page<?php echo $this->pageclass_sfx; ?>" itemscope itemtype="https://schema.org/Article">
 	<meta itemprop="inLanguage" content="<?php echo ($this->item->language === '*') ? JFactory::getConfig()->get('language') : $this->item->language; ?>" />
-	<?php if ($this->params->get('show_page_heading')) : ?>
-	<div class="page-header">
-		<h1> <?php echo $this->escape($this->params->get('page_heading')); ?> </h1>
-	</div>
-	<?php endif;
-	if (!empty($this->item->pagination) && $this->item->pagination && !$this->item->paginationposition && $this->item->paginationrelative)
-	{
-		echo $this->item->pagination;
-	}
-	?>
+	
 
 	<?php // Todo Not that elegant would be nice to group the params ?>
 	<?php $useDefList = ($params->get('show_modify_date') || $params->get('show_publish_date') || $params->get('show_create_date')
@@ -101,6 +92,16 @@ JHtml::_('behavior.caption');
 	endif; ?>
 	src="<?php echo htmlspecialchars($images->image_fulltext); ?>" alt="<?php echo htmlspecialchars($images->image_fulltext_alt); ?>" itemprop="image"/> </div>
 	<?php endif; ?>
+	<?php if ($this->params->get('show_page_heading')) : ?>
+	<div class="page-header">
+		<h1> <?php echo $this->escape($this->params->get('page_heading')); ?> </h1>
+	</div>
+	<?php endif;
+	if (!empty($this->item->pagination) && $this->item->pagination && !$this->item->paginationposition && $this->item->paginationrelative)
+	{
+		echo $this->item->pagination;
+	}
+	?>
 	<?php
 	if (!empty($this->item->pagination) && $this->item->pagination && !$this->item->paginationposition && !$this->item->paginationrelative):
 		echo $this->item->pagination;
@@ -133,15 +134,14 @@ JHtml::_('behavior.caption');
 	<?php endif; ?>
 	<?php // Optional teaser intro text for guests ?>
 	<?php elseif ($params->get('show_noauth') == true && $user->get('guest')) : ?>
-	<?php echo JLayoutHelper::render('joomla.content.intro_image', $this->item); ?>
-	<?php echo JHtml::_('content.prepare', $this->item->introtext); ?>	
+	<?php echo $this->item->introtext; ?>
 	<?php // Optional link to let them register to see the whole article. ?>
 	<?php if ($params->get('show_readmore') && $this->item->fulltext != null) : ?>
 	<?php $menu = JFactory::getApplication()->getMenu(); ?>
 	<?php $active = $menu->getActive(); ?>
 	<?php $itemId = $active->id; ?>
 	<?php $link = new JUri(JRoute::_('index.php?option=com_users&view=login&Itemid=' . $itemId, false)); ?>
-	<?php $link->setVar('return', base64_encode(ContentHelperRoute::getArticleRoute($this->item->slug, $this->item->catid, $this->item->language))); ?>
+	<?php $link->setVar('return', base64_encode(JRoute::_(ContentHelperRoute::getArticleRoute($this->item->slug, $this->item->catid, $this->item->language), false))); ?>
 	<p class="readmore">
 		<a href="<?php echo $link; ?>" class="register">
 		<?php $attribs = json_decode($this->item->attribs); ?>

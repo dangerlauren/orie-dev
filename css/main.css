@@ -780,18 +780,26 @@ form .finder button {
 
 /* News */
 
-.blog-news {
+.blog-news, .item-page-news {
 	margin: 0 3.25%;
 }
 
-.blog-news .page-header {
+.blog-news .page-header, .item-page-news .page-header {
 	clear: left;
 }
 
-.blog-news .published {
+.blog-news .published, .item-page-news .published {
 	font-style: italic;
 	font-family: 'Georgia', serif;
+	margin-bottom: 1em;
 }
+
+.blog-news .items-row .item {
+	border-top: 1px solid #e0e0e0;
+	max-width: 1000px;
+}
+
+
 
 /* Footer */
 

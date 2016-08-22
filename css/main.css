@@ -304,6 +304,7 @@ form .finder button {
 
 .moduletable-mobilenav .menu-mobile.expand {
 	display: block;
+	overflow: hidden;
 }
 
 .moduletable-mobilenav .menu-mobile {
@@ -319,6 +320,15 @@ form .finder button {
 	list-style-type: none;
 }
 
+.moduletable-mobilenav .menu-mobile li.parent.active {
+	background-color: #005E83;
+	padding-bottom: .75em;
+}
+
+.moduletable-mobilenav .menu-mobile li.parent.active > a {
+	color: #fff;
+}
+
 .moduletable-mobilenav .menu-mobile li a {
 	text-decoration: none;
 }
@@ -327,20 +337,23 @@ form .finder button {
 	color: #005E83;
 }
 
-.moduletable-mobilenav .menu-mobile li.current.active {
+/*.moduletable-mobilenav .menu-mobile li.current.active {
 	background-color: #005E83;
 }
 
 .moduletable-mobilenav .menu-mobile li.current.active a {
 	color: #fff;
-}
+}*/
 
 .moduletable-mobilenav .menu-mobile li .nav-child {
-	margin: 1em 0 -.75em -.75em;
+	/*margin: 1em 0 -.75em -.75em;*/
+	margin: 1em 0 -.75em -1em;
+	background-color: #e0e0e0;
 }
 
 .moduletable-mobilenav .menu-mobile li .nav-child li {
 	border: none;
+	padding-left: 4em;
 }
 
 #overlay {

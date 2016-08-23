@@ -196,6 +196,12 @@
 	margin-top: 1.5em;
 }
 
+/* Pagination */
+
+.blog-news .pagination ul li {
+    padding: 0 0.75em;
+}
+
 /* Footer */
 
 #footer {

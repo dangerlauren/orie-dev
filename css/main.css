@@ -118,6 +118,10 @@ figcaption {
 	padding: .3em 1.5em 0 0;
 }
 
+.expand {
+	display: none;
+}
+
 /* Wrapper */
 #wrapper {
 	text-align: left;
@@ -794,11 +798,19 @@ form .finder button {
 /* News */
 
 .blog-news, .item-page-news {
-	margin: 0 3.25%;
+	margin: 0 3.25% 3.25% 3.25%;
 }
 
-.blog-news .page-header, .item-page-news .page-header {
+.blog-news > .page-header, .item-page-news .page-header {
 	clear: left;
+	display: inline-block;
+    position: relative;
+    width: 100%;
+    margin-top: -1em;
+}
+
+.item-page-news .page-header h2 {
+	margin-top: 1.75em;
 }
 
 .blog-news .published, .item-page-news .published {
@@ -812,7 +824,35 @@ form .finder button {
 	max-width: 1000px;
 }
 
+/* Pagination*/
 
+.tooltip {
+	display: none !important;
+}
+
+.blog-news .pagination, .search .pagination {
+	margin-top: 2em;
+    border-top: 1px solid #e0e0e0;
+    max-width: 1000px;
+}
+
+.blog-news .pagination .counter, .search .pagination .counter {
+    margin-top: 2em;
+}
+
+.blog-news .pagination ul, .search .pagination ul {
+    list-style: none;
+    margin-left: 0;
+}
+
+.blog-news .pagination ul li {
+    display: inline-block;
+    padding: 0 1em;
+}
+
+.blog-news .pagination ul li.pagination-start, .search .pagination ul li.pagination-start {
+    padding: 0;
+}
 
 /* Footer */
 
@@ -898,6 +938,7 @@ form .finder button {
 	font-size: .9em;
 	letter-spacing: .025em;
 	margin: -.45em 0 0;
+	display: block;
 }
 
 .custom-resources ul li {

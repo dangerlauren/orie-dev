@@ -119,4 +119,11 @@
 		});
 	});
 
+	$(function() {
+		$("dt a").click(function(event) { 
+			event.preventDefault(); 
+			$(this).parent().next('dd').slideToggle();
+		});
+	});
+
 })(jQuery);

@@ -1,4 +1,19 @@
 @media (max-width: 413px) {
+
+	p {
+		font-size: .95em;
+		margin-bottom: 1.5em;
+		clear: left;
+	}
+
+	.about-dir h2 {
+		clear: left;
+		font-size: 1.1em;
+	}
+
+	.about-dir img {
+		margin-bottom: 1.5em;
+	}
 	
 	/* Hero */
 

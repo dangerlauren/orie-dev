@@ -62,7 +62,7 @@ p {
 	font-weight: 300;
 	letter-spacing: .01em;
 	line-height: 1.45em;
-	margin-bottom: 1.5em;
+	margin-bottom: 1em;
 	max-width: 1000px;
 }
 
@@ -75,7 +75,7 @@ ul, ol {
 }
 
 li {
-	margin-bottom: 1em;
+	margin-bottom: .65em;
 	font-size: 1.05em;
 	font-weight: 300;
 	letter-spacing: .01em;
@@ -488,7 +488,7 @@ form .finder button {
 .custom-flex h3 {
 	font-size: 1.125em;
 	font-weight: 700;
-	margin-bottom: 1.4em;
+	margin: .75em 0 1.4em 0;
 	max-width: 320px;
 	/*color: #3a3a3a;*/
 	color: #6d6e71;
@@ -530,7 +530,7 @@ form .finder button {
 	text-decoration: none;
 }
 
-.custom-pullquote {
+.custom-pullquote, .custom-rankings {
 	/*background-color: #808285;*/
 	background-color: #005E83;
 	/*background-color: #bf5700;*/
@@ -561,6 +561,34 @@ form .finder button {
 	letter-spacing: .025em;
 	line-height: 2em;
 }
+
+.custom-rankings div {
+    width: 20%;
+    float: left;
+    margin: 0 3.25% 0 1.7%;
+    padding: 6em 0;
+    text-align: center;
+}
+
+.custom-rankings div p {
+    font-weight: 700;
+    margin-bottom: .5em;
+}
+
+.custom-rankings div p span {
+    display: block;
+    font-weight: 600;
+    font-size: 3em;
+    margin-bottom: .5em;
+}
+
+
+.custom-rankings div p.source {
+    font-weight: normal;
+    font-size: .85em;
+    font-style: italic;
+}
+
 
 /* Academics */
 
@@ -597,6 +625,10 @@ form .finder button {
 }
 
 #left ul li a:hover {
+	color: #005E83;
+}
+
+#left ul li.active a {
 	color: #005E83;
 }
 

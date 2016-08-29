@@ -653,6 +653,25 @@ form .finder button {
 	/*margin-left: 19.25em;*/
 }
 
+.academics h2 {
+	border-top: 1px solid #e0e0e0;
+    padding-top: 1em;
+    max-width: 1000px;
+}
+
+dl.faq {
+	margin: 0 0 1.5em 0;
+}
+
+dl.faq dt {
+	margin-bottom: .75em;
+    line-height: 1.25em;
+}
+
+dl.faq dd {
+	display: none;
+}
+
 /* Search */
 
 .finder h1 {

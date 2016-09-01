@@ -26,9 +26,25 @@
 	// *** ORIGINAL ***
 	// $(function(){
 	// 	$('.moduletable-mobilenav').click(function(){
-	// 		$('.menu-mobile').slideToggle().toggleClass('expand');
-	// 	})
+	// 		var target = $(e.target);
+
+	// 		if (target.hasClass(".moduletable-mobilenav .search-query")) {
+	// 			e.stopPropogation();
+	// 		}
+	// 		else {
+	// 			$('.menu-mobile').slideToggle().toggleClass('expand');
+	// 		}
+			
+
 	// });
+
+	// $(function() {
+	// 	$(".moduletable-mobilenav .search-query").click(function(e) {
+	// 		e.stopPropogation();
+	// 	});
+	// });
+
+	
 
 	// $(function(){
 	// 	$( '.moduletable-mobilenav h3' ).click(function(){
@@ -44,7 +60,7 @@
 	// });
 
 		// *** REFACTORED - STILL WORKS ***
-		$(function(){
+	$(function(){
 		$('.moduletable-mobilenav').click(function(){
 			$(this).css({'z-index': '999'});
 			var docHeight = $(document).height();
@@ -54,6 +70,8 @@
 			$('.menu-mobile').slideToggle().toggleClass('expand');
 		})
 	});
+
+	
 
 	// $(function(){
 	// 	$('.moduletable-mobilenav').click(function(e){

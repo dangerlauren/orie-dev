@@ -670,6 +670,7 @@ dl.faq dt {
 
 dl.faq dd {
 	display: none;
+	margin-bottom: 1em;
 }
 
 /* Search */

@@ -78,6 +78,15 @@
 	});
 
 	$(function(){
+		$(window).on('resize', function() {
+			if ($(window).width() > 1000) {
+				$("#overlay").remove(".show");
+				$(".menu-mobile").slideToggle();
+			}
+		});
+	});
+
+	$(function(){
 		$( '.custom-flexcontrols p a.next, .custom-flexcontrols p a.prev' ).click(function(event){
 			var n = $(this).attr('href').substring(1);
 			if (n == 'null') {

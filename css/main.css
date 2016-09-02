@@ -727,6 +727,34 @@ dl.faq dd {
 	border-bottom: none;
 }
 
+/* Faculty */
+
+.clear {
+	clear: both;
+}
+
+.item-page.faculty .clear {
+	padding: 1em 0 17em 0;
+	border-top: 1px solid #e0e0e0;
+	max-width: 1000px;
+	margin-right: 3.25%;
+}
+
+.item-page.faculty {
+	width: 95%;
+	margin-top: -1em;
+	margin-left: 2.5em;
+}
+
+.item-page.faculty p:first-of-type {
+	margin-right: 3.25%;
+}
+
+.item-page.faculty .facinfo {
+	float: left;
+	width: 70%;
+}
+
 /* Events */
 
 #jevents {

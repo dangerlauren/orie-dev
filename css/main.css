@@ -755,6 +755,10 @@ dl.faq dd {
 	width: 70%;
 }
 
+.item-page.faculty .facinfo h3 {
+	margin-top: .3em;
+}
+
 /* Events */
 
 #jevents {
@@ -850,7 +854,7 @@ dl.faq dd {
 }
 
 #jevents #jevents_body p {
-    margin: .7em 3em 2em 0;
+    margin: -.2em 3em 3em 0;
 }
 
 #jevents .jevbootstrap .btn {
@@ -975,7 +979,7 @@ dl.faq dd {
 	line-height: 1.5em;
 
 	display: inline-block;
-	padding: 1em 3% 0 0;
+	padding: 1em 2% 0 0;
 	float: left;
 	margin-bottom: 1.5%;
 	width: 28%;
@@ -1039,8 +1043,8 @@ dl.faq dd {
 	float: left;
 	/*margin: 0 3.25%;*/
 	color: #6e6f71;
-	padding-right: 4%;
-	width: 14%;
+	padding-right: 2%;
+	width: 17%;
 }
 
 .custom-contact h2 {
@@ -1075,7 +1079,7 @@ dl.faq dd {
 }
 
 .custom-utlinks {
-	margin-top: 30%;
+	margin-top: 15%;
 }
 
 .custom-utlinks p {

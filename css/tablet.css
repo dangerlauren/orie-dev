@@ -105,6 +105,15 @@
 	margin-bottom: .75em;
 }
 
+.custom-pullquote #quote {
+	margin-top: 5%;
+}
+
+.custom-pullquote #quotetext {
+	padding-bottom: 5%;
+	font-size: 1.35em;
+}
+
 /* Breadcrumbs */
 
 .breadcrumb {
@@ -160,6 +169,7 @@
 	border-top: 3px solid #bf5700;
 	margin: -.6em 0 0 0;
 	padding: .8em .2em; 
+	pointer-events: auto;
 }
 
 #left .menuhead h3 {
@@ -254,5 +264,24 @@
 	margin-top: -1.5%;
 }
 
+@media (max-width: 768px) {
+	.custom-pullquote #quotetext {
+		font-size: 1.2em;
+		line-height: 1.5em;
+		padding-bottom: 7%;
+	}
 
+	.custom-pullquote #quote {
+		display: none;
+	}
+
+	.custom-pullquote #quote-sm {
+		display: block;
+		margin-top: 3.25%;
+	}
+
+	.custom-pullquote #quote-sm img {
+		border-bottom: 5px solid;
+	}
+}
 

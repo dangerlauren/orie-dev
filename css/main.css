@@ -546,9 +546,13 @@ form .finder button {
 	margin-top: 3em;
 }
 
-.custom-pullquote #quote {
+.custom-pullquote #quote, .custom-pullquote #quote-sm {
 	text-align: center;
 	margin: 7.25% 10% 0 10%;
+}
+
+.custom-pullquote #quote-sm {
+	display: none;
 }
 
 .custom-pullquote #quotetext {
@@ -559,7 +563,11 @@ form .finder button {
 	margin: 0;
 	max-width: 100%;
 	letter-spacing: .025em;
-	line-height: 2em;
+	line-height: 1.8em;
+}
+
+.custom-pullquote #quote2 #quotetext {
+	padding-top: 7.25%;
 }
 
 .custom-rankings div {
@@ -601,6 +609,7 @@ form .finder button {
 
 #left .menuhead {
 	margin-bottom: 1em;
+	pointer-events: none;
 }
 
 #left .menuhead h3 {
@@ -671,6 +680,9 @@ dl.faq dt {
 dl.faq dd {
 	display: none;
 	margin-bottom: 1em;
+	padding-left: 2em;
+	border-left: 1px solid #e0e0e0;
+	margin-left: .5em;
 }
 
 /* Search */

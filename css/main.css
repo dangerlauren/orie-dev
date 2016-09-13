@@ -675,6 +675,7 @@ dl.faq {
 dl.faq dt {
 	margin-bottom: .75em;
     line-height: 1.25em;
+    font-size: 1.05em;
 }
 
 dl.faq dd {

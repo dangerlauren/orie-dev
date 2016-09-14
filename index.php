@@ -50,6 +50,9 @@ $doc->addScript($this->baseurl.'/templates/'.$this->template.'/javascript/orie.j
 		<div id="left">
 			<jdoc:include type="modules" name="left" style="none" />
 		</div>
+		<div id="right">
+			<jdoc:include type="modules" name="right" style="none" />
+		</div>
 		<div id="position-1">
 			<jdoc:include type="modules" name="position-1" style="none" />
 		</div>

@@ -206,6 +206,12 @@
 	margin-top: 1.5em;
 }
 
+/* Faculty */
+
+.item-page.faculty {
+	width: 95%;
+}
+
 /* Pagination */
 
 .blog-news .pagination ul li {

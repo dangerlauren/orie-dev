@@ -135,6 +135,12 @@
 		font-size: 1.8em;
 	}
 
+	/* Faculty */
+
+	.item-page.faculty {
+		margin-left: 3.25%;
+	}
+
 	/* Footer */
 
 	#footer {

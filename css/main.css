@@ -775,7 +775,7 @@ form .finder button {
 .custom-pullquote #quotetext {
 	text-align: center;
 	padding: 2% 10% 7.25% 10%;
-	/*font-style: italic;*/
+	font-style: italic;
 	font-size: 1.5em;
 	margin: 0;
 	max-width: 100%;
@@ -859,8 +859,8 @@ form .finder button {
 	color: #005E83;
 }
 
-.item-page, .blog-news, #jevents {
-	margin: -.8em 3.25% 3.25% 2em;
+.item-page {
+	margin: 3em 3.25% 3.25% 2em;
 	width: 65%;
 	float: left;
 }
@@ -989,7 +989,7 @@ dl.faq dd {
 
 .item-page.faculty {
 	width: 65%;
-	margin-top: -1em;
+	margin-top: 3em;
 	margin-left: 2.5em;
 }
 
@@ -1010,6 +1010,9 @@ dl.faq dd {
 
 #jevents {
 	height: auto;
+	float: left;
+	width: 65%;
+	margin: 4em 3.25% 3.25% 2em;
 }
 
 #jevents #jevents_header {
@@ -1053,16 +1056,20 @@ dl.faq dd {
     font-size: 1em;
     float: left;
     font-family: 'Georgia', serif;
-    background-color: #eaeaea;
+    /*background-color: #eaeaea;*/
     color: #3a3a3a;
     font-style: italic;
     min-width: 160px;
     margin-right: 3em;
-    padding: 1.5em .8em 1.5em 1.5em;
+    /*padding: 1.5em .8em 1.5em 1.5em;*/
 }
 
-.mod_events_latest_table .mod_events_latest_date:first-of-type {
+/*.mod_events_latest_table .mod_events_latest_date:first-of-type {
 	margin-bottom: 2em;
+}*/
+
+.mod_events_latest {
+	border: none !important;
 }
 
 .mod_events_latest_date {
@@ -1084,13 +1091,13 @@ dl.faq dd {
 
 #jevents .ev_td_li a {
     font-size: 1em;
-    color: #3a3a3a;
+    color: #005E83;
     /* display: inline-block; */
 }
 
 .mod_events_latest_table .mod_events_latest_content a {
 	font-size: 1.05em;
-	color: #3A3A3A;
+	color: #005E83;
 	
 	font-weight: bold;
 }
@@ -1118,7 +1125,7 @@ dl.faq dd {
     margin: -.2em 3em 3em 0;
 }
 
-#jevents .jevbootstrap .btn, #seminar-btn .btn {
+#jevents .jevbootstrap .btn/*, #seminar-btn .btn */{
     color: #3A3A3A;
     background-color: #eaeaea;
     padding: 0.25em 2.7em;
@@ -1128,6 +1135,14 @@ dl.faq dd {
     min-width: 100px;
     border-radius: 0;
     box-shadow: none;
+}
+
+#seminar-btn .btn {
+	color: #fff;
+	background-color: #005E83;
+	padding: .75em;
+	font-weight: 700;
+	letter-spacing: .01em;
 }
 
 #jevents .jevbootstrap .btn:hover {
@@ -1151,8 +1166,14 @@ dl.faq dd {
 	margin-top: 0em;
 }
 
+.noright #right {
+	display: none;
+}
+
 .blog-news, .item-page-news {
-	margin: 0 3.25% 3.25% 3.25%;
+	margin: 4em 3.25% 3.25% 3.25%;
+	width: 65%;
+	float: left;
 }
 
 .blog-news > .page-header, .item-page-news .page-header {

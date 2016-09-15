@@ -1050,23 +1050,28 @@ dl.faq dd {
     border: none;
 }
 
-#jevents #jevents_body .ev_table .ev_td_left, .mod_events_latest_table .mod_events_latest_date:first-of-type {
+#jevents #jevents_body .ev_table .ev_td_left {
     border: none;
     /*width: 15% !important;*/
     font-size: 1em;
     float: left;
     font-family: 'Georgia', serif;
-    /*background-color: #eaeaea;*/
+    background-color: #eaeaea;
     color: #3a3a3a;
     font-style: italic;
     min-width: 160px;
     margin-right: 3em;
-    /*padding: 1.5em .8em 1.5em 1.5em;*/
+    padding: 1.5em .8em 1.5em 1.5em;
 }
 
-/*.mod_events_latest_table .mod_events_latest_date:first-of-type {
-	margin-bottom: 2em;
-}*/
+.mod_events_latest_table .mod_events_latest_date:first-of-type {
+	padding: 0;
+	font-size: 1em;
+    float: left;
+    font-family: 'Georgia', serif;
+    font-style: italic;
+    color: #3a3a3a;
+}
 
 .mod_events_latest {
 	border: none !important;

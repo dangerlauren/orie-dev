@@ -1130,7 +1130,7 @@ dl.faq dd {
     margin: -.2em 3em 3em 0;
 }
 
-#jevents .jevbootstrap .btn/*, #seminar-btn .btn */{
+#jevents .jevbootstrap .btn {
     color: #3A3A3A;
     background-color: #eaeaea;
     padding: 0.25em 2.7em;
@@ -1142,12 +1142,20 @@ dl.faq dd {
     box-shadow: none;
 }
 
-#seminar-btn .btn {
+#seminar-btn .btn, .custom-allnews p a {
 	color: #fff;
 	background-color: #005E83;
 	padding: .75em;
 	font-weight: 700;
 	letter-spacing: .01em;
+}
+
+.custom-allnews {
+	margin-top: 3em;
+}
+
+.custom-allnews p a {
+	clear: left;
 }
 
 #jevents .jevbootstrap .btn:hover {
@@ -1162,7 +1170,7 @@ dl.faq dd {
 
 /* News */
 
-.blog-newsandevents > h2 {
+.item-page-newsandevents > h2 {
 	font-weight: 300;
 	font-size: 2.20em;
 	line-height: 1.25em;
@@ -1181,6 +1189,12 @@ dl.faq dd {
 	float: left;
 }
 
+.item-page-newsandevents {
+	width: 45%;
+	margin: 3em 3.25% 3.25% 3.25%;
+	float: left;
+}
+
 .blog-news > .page-header, .item-page-news .page-header {
 	clear: left;
 	display: inline-block;
@@ -1193,7 +1207,7 @@ dl.faq dd {
 	margin-top: 1.75em;
 }
 
-.blog-news .published, .item-page-news .published, .blog-newsandevents .published {
+.blog-news .published, .item-page-news .published, .blog-newsandevents .published, .item-page-newsandevents .published {
 	font-style: italic;
 	font-family: 'Georgia', serif;
 	margin-bottom: 1em;
@@ -1204,11 +1218,12 @@ dl.faq dd {
 	max-width: 1000px;
 }
 
-.blog-newsandevents .items-row {
+.newsflash p {
 	border-bottom: 1px solid #e0e0e0;
+	padding-bottom: 1.5em;
 }
 
-.blog-newsandevents .items-row:last-of-type {
+.newsflash p:last-of-type {
 	border: none;
 }
 

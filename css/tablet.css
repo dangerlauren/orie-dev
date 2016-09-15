@@ -212,6 +212,16 @@
 	width: 95%;
 }
 
+/* Events */
+
+#right {
+	width: 28%;
+}
+
+.item-page-newsandevents {
+	width: 55%;
+}
+
 /* Pagination */
 
 .blog-news .pagination ul li {

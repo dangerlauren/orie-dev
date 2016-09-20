@@ -15,8 +15,9 @@
 		margin-bottom: 1.5em;
 	}
 
-	.blog-news, .item-page-news, .item-page-newsandevents {
+	.blog-news, .item-page-news {
 		margin-top: 2em;
+		width: 95%;
 	}
 	
 	/* Hero */
@@ -146,21 +147,6 @@
 	}
 
 	/* Events */
-
-	#right {
-		width: 94%;
-		float: none;
-		margin-left: 3.25%;
-	}
-
-	.item-page-newsandevents {
-		width: 94%;
-	}
-
-	.custom-allnews {
-		margin-top: 2em;
-		margin-bottom: 3em;
-	}
 
 	#jevents {
 		width: 94%;

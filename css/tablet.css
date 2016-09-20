@@ -216,10 +216,26 @@
 
 #right {
 	width: 28%;
+	margin-top: -.75em;
 }
 
 .item-page-newsandevents {
 	width: 55%;
+	margin-top: -.5em;
+}
+
+#jevents {
+	width: 95%;
+	margin: 0.5em 3.25% 3.25%;
+}
+
+#jevents #jevents_header h1, #jevents #jevents_body {
+	margin-left: 0;
+}
+
+.blog-news {
+	width: 93%;
+	margin-top: .5em;
 }
 
 /* Pagination */
